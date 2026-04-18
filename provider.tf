@@ -16,6 +16,7 @@ terraform {
     }
   }
 
+
   backend "s3" {
     bucket  = "useast1bucketuniqenamehupeqfeivgajuvianvaidvbaer"
     key     = "terraform.tfstate"
